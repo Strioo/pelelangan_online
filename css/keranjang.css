@@ -1,0 +1,275 @@
+body {
+    background-color: #05BFDB;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+input[type="button" i] {
+    width: 250px;
+    height: 75px;
+    margin-left: 15px;
+    background-color: #16FBFB;
+    color: white;
+    border-radius: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    background-image: url('../image/user.png');
+    background-position: left;
+    background-position-x: 9px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 0px;
+}
+
+input[type="search" i] {
+    width: 600px;
+    height: 44px;
+    margin-left: 140px;
+    margin-top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    background-color: #D9D9D9;
+    background-image: url('../image/search\ \(1\).png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 13px;
+}
+
+
+.right {
+    width: 70px;
+    height: 70px;
+    margin-right: 60px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+}
+
+.gariscate {
+    margin-top: 26px;
+    border: 1px solid black;
+}
+
+.category {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-left: 15px;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.kate {
+    float: left;
+    margin-left: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 0px;
+    color: black;
+}
+
+.list-barang {
+    position: absolute;
+}
+
+.ker {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 25px;
+    margin-left: 47px;
+    font-weight: 700;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: 'inter';
+    color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #05BFDB;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.container:hover input~.checkmark {
+    background-color: #05BFDB;
+}
+
+.container input:checked~.checkmark {
+    background-color: #3EB489;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 11px;
+    top: 3px;
+    width: 6px;
+    height: 16px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.barang {
+    background-color: white;
+    width: 203px;
+    height: 179px;
+    margin-left: 16px;
+    margin-top: 23px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.jual {
+    width: 171px;
+    height: 114px;
+    margin-left: 16px;
+    margin-top: 21px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.garisbarang {
+    width: 739px;
+    height: 0px;
+    left: 5px;
+    top: 310px;
+    border: 1px solid #8F8B8B;
+    filter: blur(2px);
+}
+
+.bayar {
+    display: flex;
+}
+
+.list {
+    float: inline-start;
+}
+
+.nama {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 22px;
+    margin-top: 49px;
+}
+
+.harga {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 14px;
+    list-style-type: disc;
+}
+
+.pembayaran {
+    box-sizing: border-box;
+    width: 491px;
+    height: 446px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    float: right;
+    margin-top: 56px;
+    margin-right: 64px;
+}
+
+.ringkasan {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.totalbarang {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+.linebarang {
+    width: 456px;
+    height: 0px;
+    margin-top: 39px;
+    margin-left: 15px;
+    border: 1px solid #8F8B8B;
+    filter: blur(2px);
+    transform: rotate(0.26deg);
+}
+
+.beli {
+    width: 396px;
+    height: 89px;
+    background-color: #00FFCA;
+    color: black;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    border: 0px solid;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-left: 45px;
+}

@@ -1,0 +1,100 @@
+body {
+    background-color: #05BFDB;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+}
+
+.profile {
+    height: 60px;
+    width: 60px;
+    margin-left: 1460px;
+    margin-top: -65px;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+.border {
+    width: 800px;
+    height: 500px;
+    border: 0px solid white;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 360px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.metode {
+    width: 750px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 35.0861px;
+    display: flex;
+}
+
+.tulis {
+    margin-left: 480px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.bca {
+    width: 80px;
+    height: 60px;
+    margin-top: -5px;
+    margin-left: 450px;
+}
+
+.step {
+    width: 770px;
+    height: 220px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 35.0861px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.angka {
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #BEBEBE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+}
+
+.masuk {
+    width: 760px;
+    height: 50px;
+    margin-left: 24px;
+    margin-top: 34px;
+    background-color: #00FFCA;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    border: 0px solid;
+    cursor: pointer;
+    border-radius: 20px;
+}
